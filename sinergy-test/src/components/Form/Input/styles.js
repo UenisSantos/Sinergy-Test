@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const Image = styled.img`
+export const Input = styled.input`
 ${() => css`
 
 `}

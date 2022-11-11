@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const Image = styled.img`
+export const Label = styled.form`
 ${() => css`
 
 `}

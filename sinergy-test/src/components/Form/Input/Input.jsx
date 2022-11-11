@@ -8,7 +8,7 @@ export const Input = ({
 type,
 value,
 name,
-placeHolder
+placeHolder,
 onchange
 
 }) => {
@@ -17,8 +17,12 @@ return (
 <Styled.Input
  type={type}
    value={value}
-    placeHolder={placeHolder} />
+   name={name}
+    placeHolder={placeHolder}
+        onchange={onchange}
 
+
+    />
 
 )
 };

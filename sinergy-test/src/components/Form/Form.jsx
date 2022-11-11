@@ -10,7 +10,7 @@ export const Form = ({
 }) => {
 return (
 
-<Styled.Label>
+<Styled.Label onSubmit={onSubmit} >
 {children}
 </Styled.Label>
 )

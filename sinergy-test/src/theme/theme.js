@@ -4,23 +4,24 @@ export const theme = {
 	colors: {
 		primaryColor: '#8701CF',
 		secundaryColor: '##FF7B29',
-		ligth: '#D0B7DE'
+		ligthButton: '#D0B7DE',
+		textColor: '#FFFFFF'
 	},
 	sizes: {
-		smaller: '1.6rem',
-		small: '3rem',
-		medium: '5.5rem',
-		big: '7rem',
+		smaller: '2.5rem',
+		small: '3.0rem',
+		medium: '6.0rem',
+		big: '25.0rem',
 		huge: '9.5rem'
 
 	},
 
 	spacings: {
-		smaller: '0.5rem',
-		small: '1rem',
-		medium: '1.5rem',
-		big: '2rem',
-		huge: '8rem'
+		smaller: '2.0rem',
+		small: '2.5rem',
+		medium: '3.0rem',
+		big: '5.0rem',
+		huge: '6.0rem'
 	},
 
 

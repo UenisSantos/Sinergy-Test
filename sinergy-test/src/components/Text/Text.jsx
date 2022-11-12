@@ -10,7 +10,7 @@ export const Text = ({
 	}) => {
 return (
 
-<Styled.Text>
+<Styled.Text  as={as} size={size}>
 {children}
 </Styled.Text>
 )

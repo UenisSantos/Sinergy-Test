@@ -4,20 +4,21 @@ import *  as Styled from './styles'
 
 
 export const Image = ({
-	children
-
-
+	src,
+alt,
+classe,
 }) => {
 return (
 
-<Styled.Image>
-{children}
-</Styled.Image>
+<Styled.Image  className={classe}  src={src}  alt={alt}/>
 )
+
 };
 
 
 Image.propTypes = {
 
-children: P.node.isRequired
+	src: P.node.isRequired,
+	alt:P.string.isRequired,
+	classe:P.string
 }

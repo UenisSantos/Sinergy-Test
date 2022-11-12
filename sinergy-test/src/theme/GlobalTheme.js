@@ -23,14 +23,19 @@ html{
 
 h2,p{
 	color: #FFFFFF;
+
 }
 
 h2{
 	font-weight:800;
+	line-height: 4.5rem;
+
 }
 
 p{
 	font-weight: 400;
+	line-height: 3.8rem;
+
 }
 
 

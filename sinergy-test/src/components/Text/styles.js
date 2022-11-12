@@ -5,18 +5,14 @@ const Sizes = {
 
 	smaller: (theme) => css`
 	  font-size:${theme.sizes.smaller};
-       top: 255px;
-       line-height: 38px;
-margin: 0 27px 0${theme.sizes.smaller};
-
-
+margin: 0 2.7rem 0${theme.sizes.smaller};
 
 
 	`,
 	small: (theme) => css`
 	font-size: ${theme.sizes.small} ;
-        line-height: 45px;
-	   margin: 0  50px 0 ${theme.sizes.smaller}  ;
+        line-height: 4.5rem;
+	   margin: 0  5.0rem 0 ${theme.sizes.smaller}  ;
         top: 120px;
 
 /*         left: 25px;

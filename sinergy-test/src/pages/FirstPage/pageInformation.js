@@ -1,7 +1,7 @@
 import logo from '../../assets/Logo.png'
 import firstImage from '../../assets/firstImage.png'
 
-export const firstInformation = [
+export const pageInformation = [
 	{
 
 

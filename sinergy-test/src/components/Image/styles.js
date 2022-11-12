@@ -15,11 +15,5 @@ position: absolute;
 
 
 
-&.firstImage{
-	height: ${theme.sizes.big};
-	top: 521px;
-	left: 6.3rem;
-}
-
 `}
 `;

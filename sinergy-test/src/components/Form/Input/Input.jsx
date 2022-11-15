@@ -11,7 +11,9 @@ name,
 placeHolder,
 onchange,
 id,
-onclick
+onclick,
+
+
 
 }) => {
 
@@ -30,6 +32,8 @@ placeHolder={placeHolder}
  id={id}
 onClick={onclick}
 disabled={visible}
+
+
     />
 
 )

@@ -28,12 +28,25 @@ size='small'>
 	{value.title}
 	</Text>}
 
-
+	{ value.restTitle &&
+<Text as='h2'
+size='small'>
+	{value.restTitle}
+	</Text>}
 
 { value.subTitle&&
 <Text as ='p'
 size='smaller'>
 	{value.subTitle}
+</Text>
+}
+
+
+
+{ value.restSubTitle&&
+<Text as ='p'
+size='smaller'>
+	{value.restSubTitle}
 </Text>
 }
 	<Image

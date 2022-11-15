@@ -5,7 +5,8 @@ export const pageInformation = [
 	{
 
 
-		title: 'Chega de esperar o fim do mês',
+		title: 'Chega de esperar o',
+		restTitle: 'fim do mês!',
 		subTitle: 'A Empresa proporciona para seus clientes uma solução inovadora  que transforma radicalmente o dia a dia do RH.',
 		imageLogo: logo,
 		altLogo: 'logo',

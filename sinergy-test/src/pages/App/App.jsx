@@ -14,8 +14,13 @@ export const App = () => {
 		<Styled.App>
 <FirstPage/>
 <SecondPage/>
-<ThirdPage/>
+
+
+<div className='side'>
+	<ThirdPage/>
 <FourtPage/>
+</div>
+
 
 
 </Styled.App>

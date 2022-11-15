@@ -3,10 +3,10 @@ import P from 'prop-types'
 import *  as Styled from './styles'
 
 
-export const Button = ({ children ,className ,click}) => {
+export const Button = ({ children ,className ,click,type}) => {
 return (
 
-<Styled.Button className={className} onClick={click}  >
+<Styled.Button className={className} onClick={click} type={type} >
 {children}
 </Styled.Button>
 )

@@ -4,12 +4,14 @@ import *  as Styled from './styles'
 import { Input } from '../Form/Input/Input';
 import { Text } from '../Text/Text';
 
-export const CheckBox = ({ value ,id , onchange , onclick}) => {
+export const CheckBox = ({ value ,id , onchange , onclick ,}) => {
 return (
 
 <Styled.CheckBox>
+
+	<Text as='span'> {value}</Text>
+
     <label id={id}>
-	<Text as='p'> {value}</Text>
 	    <Input  onclick={onclick} onchange={onchange} type="checkbox" name={value}
 	    value={value}
 	    />

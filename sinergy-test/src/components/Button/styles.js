@@ -3,7 +3,6 @@ import styled, { css } from 'styled-components';
 export const Button = styled.button`
 ${() => css`
 
-position: absolute;
 width: 52px;
 height: 41px;
 background: #8701CF;
@@ -18,6 +17,16 @@ top: 3138px;
 color: #FFFFFF;
 
 }
+
+
+
+
+ &:hover{
+	background: #9C04ED;
+}
+
+
+
 
 `}
 `;

@@ -22,8 +22,13 @@ const [disabled  ,setDisabled] =useState('disabled')
 const [displaySuccess, setDisplaySuccess]=useState(false)
 
 const validaDisplay=()=>{
+
+	formValues.name =""
+	formValues.email=""
 setDisplaySuccess(true)
+setDisabled('disabled')
 setTimeout(function(){
+
 setDisplaySuccess(false)
 
  }, 2000);
@@ -71,7 +76,6 @@ const handleSubmit=(e)=>{
 
 	validaDisplay()
 
-
 }
 
 
@@ -85,7 +89,7 @@ const handleSubmit=(e)=>{
 
 
 return (
-<>
+
 <Styled.FourtPage   >
 	<Text as='h3' size='small' >
 	    Deixa aqui seus dados
@@ -101,7 +105,8 @@ return (
 		name='name'
 		onchange={handleInputChange}
 		value={formValues.name || ""}
-		/>		<div  className='erro'  >
+		/>		<div
+		className='erro'  >
 	<Text as='span'  > {erroName}</Text>
 </div>
 		</label>
@@ -130,7 +135,7 @@ return (
 
 	/>
 
-     <CheckBox		onchange={handleInputChange}
+     <CheckBox	 checked	onchange={handleInputChange}
  id='rede-social' value='Redes Sociais'/>
 
      <CheckBox onchange={handleInputChange} id='indicacao' value='Indicação'/>
@@ -138,42 +143,41 @@ return (
 
 
 
-<Input id='value-employees'  name='funcionarios' value={employee} onchange={handleInputChange}  type='number'
+
+<div  className='title-funcionario'>
+		<Text as='p'>
+Quantos de funcionários
+</Text>
+</div>
+
+<section className='funcionarios'>
+
+
+	<Button   type='button'   className='decrement'   click={()=>setEmployee(employee -1)}    >
+<MdRemove/>
+</Button>
+<Input id='value-employees'  name='funcionarios' value={employee} onchange={handleInputChange}     type='text'
 		/>
 
+<Button className='increment' type='button'  click={()=>setEmployee(employee +1)}  >
+<MdAdd/>
+</Button>
 
 
+</section>
 
 		  <Input disabled={disabled} id={disabled} type='submit'
 		value='enviar'
 		/>
 	</Form>
-<section className='funcionarios'>
-<Text as='p'>
-Quantos de funcionários
-</Text>
-
-	<Button className='decrement'  click={()=>setEmployee(employee -1)}    >
-<MdRemove/>
-</Button>
 
 
 
-
-
-<Button className='increment'  click={()=>setEmployee(employee +1)}  >
-<MdAdd/>
-</Button>
-
-
-
-
-</section>
 {displaySuccess && <Successs/>}
 </Styled.FourtPage>
 
 
-</>
+
 
 )
 };

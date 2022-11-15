@@ -3,6 +3,8 @@ import React from 'react'
 import { FirstPage } from '../FirstPage/FirstPage';
 import { SecondPage } from '../SecondPage/SecondPage';
 import { ThirdPage } from '../ThirdPage/ThirdPage';
+import { FourtPage } from '../FourtPage/FourtPage';
+
 import *  as Styled from './styles'
 
 
@@ -13,6 +15,9 @@ export const App = () => {
 <FirstPage/>
 <SecondPage/>
 <ThirdPage/>
-		</Styled.App>
+<FourtPage/>
+
+
+</Styled.App>
 	)
 };

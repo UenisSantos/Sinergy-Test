@@ -61,10 +61,12 @@ e o styled-component dar a liberdade que um CSS-in-JS  deve ter
 
 ### porque essa estrutura de pastas ?
 
-simplessidade, cada pas representar oque realmente 
+simplessidade, cada pasta representar oque realmente e´
 .
 pasta assets: assets do projeto ,ex fotos ,gif ,videos...
+
 pasta theme: tudo relacionado ao tema seja global ou não 
+
 pasta pages :todas as partes que fica visivel ao usuario
 
 ### vai testar a aplicação ?

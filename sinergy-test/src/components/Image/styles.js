@@ -17,7 +17,7 @@ position: absolute;
 ${theme.breakpoints.lg}{
 
 	&.logo{
-		left:8.1rem;
+		left:9.1rem;
 	}
 }
 
@@ -26,6 +26,8 @@ ${theme.breakpoints.xl}{
 
 
 	&.logo{
+		left:17.1rem;
+
 	}
 }
 `}

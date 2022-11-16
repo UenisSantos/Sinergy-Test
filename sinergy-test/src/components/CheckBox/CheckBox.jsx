@@ -9,9 +9,9 @@ return (
 
 <Styled.CheckBox>
 
-	<Text as='span'> {value}</Text>
+	<Text id={id} as='span'> {value}</Text>
 
-    <label id={id}>
+    <label >
 	    <Input  onclick={onclick} onchange={onchange} type="checkbox" name={value}
 	    value={value}
 	    />

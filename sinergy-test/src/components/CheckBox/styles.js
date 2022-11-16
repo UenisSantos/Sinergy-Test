@@ -5,37 +5,45 @@ ${({ theme }) => css`
 
 display: flex;
 flex-direction: row-reverse;
-
+padding-left: 10%;
 justify-content: left;
 align-items: flex-start;
+width: 80%;
+margin: 0 190px 0 auto;
+margin-left:-40px;
 
 input{
-margin-left: 27px;
-width: 30px;
+ width: 30px;
 height: 23px;
 border-radius: 3px;
+
 }
-
-
+#indicacao,
 #google,
-#rede-social,
-#indicacao
-{
-margin-right:-140px;
-font-size: 20px;
+#rede-social{
+margin-left: 10px;
 
 }
+
+
+
+
+
+
+
+
+
 
 ${theme.breakpoints.lg}{
 
-margin-left: 220px;
+
 
 }
 
 ${theme.breakpoints.xmax}{
 
-margin-left: 290px;
-
+/* margin-left: 350px;
+ */
 }
 
 

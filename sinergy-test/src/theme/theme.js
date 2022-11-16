@@ -28,7 +28,7 @@ export const theme = {
 
 
 	breakpoints: {
-		sm: `@media (min-width:320px)`,
+		sm: `@media (min-width:370px)`,
 		lg: `@media (min-width:768px )`,
 		xl: `@media (min-width:1024px )`,
 		max: `@media (min-width:1280px )`,

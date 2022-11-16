@@ -130,7 +130,7 @@ return (
 <ul className='containerCheck'>
 
 
-	<Text as='span'>Onde nos conheceu?</Text>
+	<Text as='p'>Onde nos conheceu?</Text>
 	<CheckBox  onchange={handleInputChange}   id='google' value='Google'
 
 	/>

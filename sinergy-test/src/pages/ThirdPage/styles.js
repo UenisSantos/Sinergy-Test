@@ -7,14 +7,16 @@ height: 49.2rem;
 text-align: center;
 background:${theme.colors.primaryColor};
 position: relative;
+overflow: hidden;
 
 
 P{
+	position: relative;
 width:382px ;
-top:61px;
 font-size:${theme.sizes.small};
 line-height: 45px;
-
+margin: 0 auto 0 auto;
+top: 30px;
 };
 
 
@@ -23,18 +25,22 @@ img{
 	position: relative;
 width: 250px;
 height: 250px;
-margin: 199px auto 0 auto ;
+margin: 129px auto 0 auto ;
 
 }
 
+${theme.breakpoints.sm}{
 
+
+
+}
 
 ${theme.breakpoints.lg}{
 	align-items: center;
 p{
 	width:382px;
-	left: 20%;
-}
+/* 	left: 20%;
+ */}
 
 	img{
 width: 300px;

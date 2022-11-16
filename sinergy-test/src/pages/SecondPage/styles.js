@@ -8,6 +8,8 @@ background-color: ${theme.colors.secundaryColor};
 width: 100%;
 height: 1036px;
 position: relative;
+overflow: hidden;
+
 h2{
 top: 45px;
 width: 300px;
@@ -53,7 +55,7 @@ font-size: 2.7rem;
 }
 
 & :nth-child(3){
-top: 58px;
+top: 22px;
 width: 360px;
  }
 
@@ -86,8 +88,13 @@ width: 550px;
 height: 270px;
 font-size:30px;
 margin-left: 72px;
-
 }
+
+
+& :nth-child(2){
+	margin-top: 85px;
+}
+
 & :nth-child(3){
 width:560px;
 height: 270px;

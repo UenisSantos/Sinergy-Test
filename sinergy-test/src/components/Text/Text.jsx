@@ -6,11 +6,12 @@ import *  as Styled from './styles'
 export const Text = ({
 	 children ,
 	 as='p',
-	 size ='small'
+	 size ='small',
+	 id
 	}) => {
 return (
 
-<Styled.Text  as={as} size={size}>
+<Styled.Text  as={as} size={size} id={id} >
 {children}
 </Styled.Text>
 )

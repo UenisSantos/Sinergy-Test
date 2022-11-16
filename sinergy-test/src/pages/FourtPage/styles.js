@@ -7,26 +7,26 @@ background-color: ${theme.colors.secundaryColor};
 text-align: center;
 position: relative;
 height: 976px;
+overflow: hidden;
 
 
 h3{
-width: 339px;
+	position: relative;
+width: 325px;
 line-height: 45px;
 font-size: 30px;
-margin:59px auto 0 auto;
-left: 27px;
+margin:0 auto 0 auto;
+top: 59px;
 }
 
 
 
 .name{
 & span{
-
-margin: 240px 282px 0 0px;
+margin: 100px 182px 0 0px;
 font-size: 20px;
-width: 166px;
+width: 136px;
 line-height: 30px;
-
 }
 
 & input{
@@ -34,7 +34,7 @@ width: 321px;
 height: 65px;
 font-size: 20px;
 border-radius: 5px;
-margin:280px auto 0 auto;
+margin:129px auto 0 auto;
 
 }
 
@@ -46,7 +46,7 @@ margin:280px auto 0 auto;
 .email {
 
 	& span{
-margin: 5px 182px 0 0px;
+margin: 0 272px 0 0px;
 font-size: 20px;
 line-height: 30px;
 
@@ -58,8 +58,7 @@ line-height: 30px;
 height: 65px;
 font-size: 20px;
 border-radius: 5px;
-margin: 40px 27px 0 0px;
-margin:40px auto 0 auto;
+margin:30px auto 0 auto;
 
 	}
 
@@ -78,13 +77,21 @@ left:5px;
 
 
 .containerCheck{
-margin-top: 20px;
+width: 321px;
+margin: 5px auto 5px auto ;
+
+p{
+
+width:200px;
+right: 130px;
+}
+
+
 & :nth-child(1) {
 position: relative;
 font-size: 20px;
 line-height: 30px;
-margin: 29px 136px 0 20px ;
-
+margin: 15px 9px 15px auto ;
 
 }
 
@@ -92,24 +99,27 @@ margin: 29px 136px 0 20px ;
 
 
 .title-funcionario{
+height: 10px;
+position: relative;
+margin-right:150px;
 	p{
 font-size: 20px;
-
-margin: 5px auto 0 27px;
-
+margin: 5px auto 0 auto;
+width: 100%;
 }
 
 }
 
 
 .funcionarios{
+
 position: relative;
 display: flex;
 flex-direction: row;
-margin: -53px  142px 0 27px  ;
 gap:20px;
-margin:57px 152px 27px 27px ;
-
+margin:47px auto 27px auto ;
+width: 250px;
+right: 8%;
 }
 
 #value-employees{
@@ -131,7 +141,7 @@ border-radius: 5px;
 background: #D0B7DE;
 font-size: 20px;
 line-height: 30px;
-
+margin-right: 60px;
 }
 
 
@@ -156,36 +166,31 @@ h3{
 }
 
 
-.title-funcionario{
-
-margin-left: 210px;
-
-}
-.funcionarios{
-
-	margin:57px 152px 27px 240px ;
-}
-
-
-
-
-}
-
-
-${theme.breakpoints.xmax}{
-	.title-funcionario{
-
-margin-left: 290px;
-
-}
 
 .funcionarios{
-	margin-left: 300px;
+	right: 5%;
 
 }
 
+
 }
 
+${theme.breakpoints.max}{
+h3{
+width: 420px;
+}
+
+.containerCheck{
+	p{
+width: 250px;
+border: 2px solid red;
+right: 90px;
+
+	}
+}
+
+
+}
 
 
  input[type=number]::-webkit-inner-spin-button {

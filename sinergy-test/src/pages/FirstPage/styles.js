@@ -6,7 +6,7 @@ width: 100%;
 height: 85.0rem;
 background: ${theme.colors.primaryColor};
 position:relative;
-
+overflow-y: hidden;
 
 
 & :nth-child(2){
@@ -44,7 +44,8 @@ ${theme.breakpoints.lg}{
 
 h2{
 	font-size: 4.0rem;
-  width: 100%;
+  width: 300px;
+margin-left: 91px;
 
 }
 & :nth-child(2){
@@ -85,6 +86,9 @@ font-size: 8.0rem;
 line-height: 12.0rem;
 left: 7.1rem;
 
+}
+p{
+	margin-left: 80px;
 }
 
 		& :nth-child(2){

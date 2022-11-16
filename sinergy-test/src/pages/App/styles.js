@@ -2,8 +2,6 @@ import styled, { css } from 'styled-components';
 
 export const App = styled.div`
 ${({ theme }) => css`
-width: 100%;
-overflow-y: ;
 
 
 

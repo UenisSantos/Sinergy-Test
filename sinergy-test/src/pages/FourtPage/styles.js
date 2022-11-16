@@ -183,7 +183,6 @@ width: 420px;
 .containerCheck{
 	p{
 width: 250px;
-border: 2px solid red;
 right: 90px;
 
 	}
